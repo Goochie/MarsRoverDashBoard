@@ -1,0 +1,85 @@
+<div class="dashboard grey lighten-3" ng-controller="DashboardController">
+  <div class="row no-gutter">
+
+    <div class="col-sm-12 col-md-12 col-lg-9" style="background:#F9F9F9;">
+
+      <div class="p-20 clearfix">
+
+        <h4 class="grey-text">
+          <i class="md md-dashboard"></i>
+          <span class="hidden-xs">Mars rover control dashboard</span>
+        </h4>
+      </div>
+
+      <div class="p-20 no-p-t">
+
+        <div class="row gutter-14 kpi-dashboard">
+
+            <div class="col-md-5">
+                <div class="card bordered">
+                    <div class="card-header">
+                        <span class="card-title">Mars Rover controls</span>
+                    </div>
+
+                    <mars-rover-control></mars-rover-control>
+
+                </div>
+            </div>
+
+
+
+           <div class="col-md-4">
+
+                <div class="panel panel-default left">
+                    <div class="panel-heading">
+
+
+                        <h2 class="panel-title grey-text">Rover on board status</h2>
+                        <h1 class="m-t-10 m-b-5 f30" ng-bind="serverLoad">82%</h1>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="progress m-b-5">
+                                    <div class="progress-bar" style="width: {{serverLoad}}%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="small grey-text no-margin">4 of 8 cores used</p>
+                    </div>
+                    <div id="server-load-chart"></div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+
+
+                <div class="panel panel-default weather">
+                    <div class="panel-body">
+                        <div class="clearfix">
+                            <div class="pull-left degrees">77<i class="wi wi-fahrenheit"></i></div>
+                            <div class="pull-right location">Mars climate</div>
+                        </div>
+                        <div class="weather-icon">
+                            <i class="wi wi-horizon-alt"></i>
+                        </div>
+                        <div>
+                            Sunny
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+</div>

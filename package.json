@@ -1,0 +1,31 @@
+{
+  "name": "RoverDashBoard",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goochie/roverDashBoard.git"
+  },
+  "author": "Bill Gooch <bill.gooch@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Goochie/roverDashBoard/issues"
+  },
+  "homepage": "https://github.com/Goochie/roverDashBoard#readme",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "cli-color": "^1.0.0",
+    "express": "^4.12.4",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-jshint": "^1.11.0",
+    "gulp-ng-config": "^1.2.1",
+    "gulp-processhtml": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-uglify": "^1.2.0",
+    "jshint-stylish": "^2.0.0",
+    "pad": "0.0.9"
+  }
+}
